@@ -1,11 +1,67 @@
-- Start
-- Initialize service quality as
-poor service:10%
-fair service:15%
-good service:18%
-excellent service:20%
-- input 
-bill amount,
-service quality,
-number of people
-- 
+Start
+PRINT'Enter a Bill Amount:'
+INPUT Bill_Amount
+
+PRINT'Select the service quality(poor,fair,good or excellent):'
+INPUT Service
+
+PRINT'Number Of People'
+INPUT Number
+
+IF Service = 'poor' THEN
+  PRINT'Service Quality is:'Service
+  Tip= Bill_Amount * 10%
+  PRINT'Tip Amount:',Tip
+
+ELSE IF Service = 'fair' THEN
+  PRINT'Service Quality is:'Service
+  Tip= Bill_Amount * 15%
+  PRINT'Tip Amount:',Tip
+
+ELSE IF Service = 'good' THEN
+  PRINT'Service Quality is:'Service
+  Tip= Bill_Amount * 18%
+  PRINT'Tip Amount:',Tip
+
+ELSE IF Service = 'excellecnt' THEN
+  PRINT'Service Quality is:'Service
+  Tip= Bill_Amount * 20%
+  PRINT'Tip Amount:',Tip
+
+END IF
+
+Total_Bill = Bill_Amount + Tip
+PRINT'Total Amount:',Total_Bill
+PRINT'Number Of People:',Number
+PPP = Total_Bill / Number
+
+PRINT'Amount per Person:',PPP
+
+END
+
+
+
+#Validation
+
+VALIDATE(Amount)
+  IF Amount > 0
+    RETURN true
+  ELSE
+    RETURN false
+
+VALIDATE_SERVICE(Service)
+  CASE(Service)
+    CASE "poor" : RETURN true
+    CASE "fair" : RETURN true
+    CASE "good" : RETURN true
+    CASE "excellent" : RETURN true
+    DEFAULT : RETURN false
+  END CASE
+
+Tip(Bill_Amount,Service)
+  CASE(Service)
+    CASE "poor" : RETURN Bill_Amount*0.10
+    CASE "fair" : RETURN Bill_Amount*0.15
+    CASE "good" : RETURN Bill_Amount*0.18
+    CASE "excellent" : RETURN Bill_Amount*0.20
+  END CASE
