@@ -32,12 +32,12 @@ The program should:
 #### Output
 The program should display:
 
-1 The original bill amount\
-2 The service quality and corresponding tip percentage\
-3 The calculated tip amount\
-4 The total amount including tip\
-5 The number of people splitting the bill\
-6 The amount each person should pay
+1. The original bill amount
+2. The service quality and corresponding tip percentage
+3. The calculated tip amount
+4. The total amount including tip
+5. The number of people splitting the bill
+6. The amount each person should pay
 
 #### Error Handling
 The program should:
