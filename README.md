@@ -42,10 +42,10 @@ The program should display:
 #### Error Handling
 The program should:
 
-1 Validate that the bill amount is a positive number
-2 Ensure the service quality is one of the accepted ratings
-3 Verify that the number of people is a positive integer
-4 Provide appropriate error messages for invalid inputs
+1. Validate that the bill amount is a positive number
+2. Ensure the service quality is one of the accepted ratings
+3. Verify that the number of people is a positive integer
+4. Provide appropriate error messages for invalid inputs
 
 ### Samples
 
