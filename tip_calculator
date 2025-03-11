@@ -1,0 +1,11 @@
+- Start
+- Initialize service quality as
+poor service:10%
+fair service:15%
+good service:18%
+excellent service:20%
+- input 
+bill amount,
+service quality,
+number of people
+- 
