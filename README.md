@@ -27,16 +27,16 @@ The program should:
     
 2 Calculate the tip amount based on the bill and tip percentage\
 3 Calculate the total amount (bill + tip)\
-4 Calculate how much each person should pay (total ÷ number of people)\
+4 Calculate how much each person should pay (total ÷ number of people)
 
 #### Output
 The program should display:
 
-1 The original bill amount
-2 The service quality and corresponding tip percentage
-3 The calculated tip amount
-4 The total amount including tip
-5 The number of people splitting the bill
+1 The original bill amount\
+2 The service quality and corresponding tip percentage\
+3 The calculated tip amount\
+4 The total amount including tip\
+5 The number of people splitting the bill\
 6 The amount each person should pay
 
 #### Error Handling
